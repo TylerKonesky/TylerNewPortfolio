@@ -1,0 +1,26 @@
+.header-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.header-left{
+    font-size: 20px;
+    text-shadow: 2px 2px lightgray
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-right a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.header-right a::hover{
+    text-decoration: underline;
+}

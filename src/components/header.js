@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom' 
+import './header.css'
 
 class Header extends React.Component{
     constructor(){
@@ -8,11 +9,21 @@ class Header extends React.Component{
     }
     render(){
         return(
-            <div>
-                Header
-                <Link to='/'>Home</Link>
-                <Link to='/AboutMe'>About Me</Link>
-                <Link to='/Projects'>Projects</Link>
+            <div className="">
+                <div className="header-wrapper">
+                    <div></div>
+                    <div className="header-left">
+                        Tyler Konesky
+                    </div>
+                    <div className="header-right"> 
+                        <Link to='/'>Home</Link>
+                        <Link to='/AboutMe'>About Me</Link>
+                        <Link to='/Projects'>Projects</Link>
+                    </div>
+
+                </div>
+                
+                
             </div>
         )
     }

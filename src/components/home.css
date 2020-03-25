@@ -1,0 +1,15 @@
+.home-wrapper{
+    background-image: url('../images/zach-lezniewicz-tot82mY0Ggs-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-content{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10%;
+    
+}
